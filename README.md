@@ -3,6 +3,7 @@
 
 This project is designed for:
 Device: NVIDIA Jetson Orin Nano
+
 OS: Ubuntu 22.04
 JetPack Version: 6.0
 Python Version: 3.8+
