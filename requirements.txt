@@ -1,0 +1,7 @@
+# Jetson-specific dependencies:
+# PyTorch & TorchVision must be installed manually from NVIDIA-provided wheels
+ultralytics==8.1.0
+opencv-python
+numpy
+pyyaml
+matplotlib
