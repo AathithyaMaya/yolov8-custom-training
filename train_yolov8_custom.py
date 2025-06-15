@@ -3,12 +3,12 @@ import os
 
 def train_yolov8():
     # Load a pre-trained YOLOv8 model
-    model = YOLO("yolov8n.pt")  # Use 'yolov8s.pt', 'yolov8m.pt', etc., for larger models
+    model = YOLO("yolov8n.pt")  
 
     # Define the path to data.yaml
     data_yaml_path = os.path.join("")  # Update this path with yaml file
 
-    # Train the model with optimized settings
+    # Train the model with optimized settings 
     results = model.train(
         data=data_yaml_path,  # Path to your dataset configuration file
         epochs=100,           # Number of epochs
