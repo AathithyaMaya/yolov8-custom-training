@@ -1,5 +1,6 @@
 # yolov8-custom-training
 🖥️ Environment & Dependencies
+
 This project is designed for:
 
 Device: NVIDIA Jetson Orin Nano
@@ -19,6 +20,7 @@ TorchVision: 0.18.0a0+6043bc2
 ⚙️ Installation Guide for PyTorch & TorchVision on Jetson 
 
 Visit the NVIDIA Jetson forum for the official instructions and wheel links:
+
 👉 PyTorch for Jetson Forum
 
 Follow the steps specific to JetPack 6.0 to download the wheel files for torch==2.3.0 and torchvision==0.18.0a0+6043bc2.
